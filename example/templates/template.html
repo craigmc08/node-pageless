@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Example</title>
+
+  <link rel="stylesheet" href="/css/main.css"/>
+
+  <!-- This needs to be here (in your main template too) -->
+  {{head-end}}
+</head>
+<body>
+  <!-- This needs to be here (in your main template too) -->
+  {{body-begin}}
+
+  <nav>
+    <ul>
+      <!-- Normal links don't take advantage of the templates being loaded in this page, these will (see src/client/intralink.js) -->
+      <li><a role="intralink" target="/about">About</a></li>
+      <li><a role="intralink" target="/contact">Contact</a></li>
+      <li><a role="intralink" target="/hello">Hello</a></li>
+    </ul>
+  </nav>
+
+  <!-- This is where the template content will be shoved into, so this is required -->
+  <!-- You can put any default content you want in here -->
+  <div role="content">
+
+  </div>
+
+  <!-- This needs to be here (in your main template too) -->
+  {{body-end}}
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "node-pageless",
+  "version": "0.0.1",
+  "description": "node.js server to make fast loading webpages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigmc08/node-pageless.git"
+  },
+  "author": "craigmc08",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigmc08/node-pageless/issues"
+  },
+  "homepage": "https://github.com/craigmc08/node-pageless#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "fs-promise": "^2.0.3"
+  }
+}
